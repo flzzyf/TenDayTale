@@ -135,7 +135,9 @@ char dialogNum[10];
 }
 
 int main() {
+	sprintf(player[0].name, "你");
 	memset(dialogNum, 0, sizeof(dialogNum));
+	addDialog(0, "321%s123",player[0].name);
 	addDialog(0, "一股来自地狱的可怕势力重新回到了人间");
 	addDialog(0, "你是唯一能够对抗它的人");
 	runDialog(0);
