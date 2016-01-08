@@ -33,7 +33,7 @@ struct Effect holyLightR;
 struct Skill attack;
 struct Skill hammer;
 struct Skill holyLight;
-char dialog[10][9][60];
+char dialog[10][9][61];
 char dialogNum[10];
 
 //函数
